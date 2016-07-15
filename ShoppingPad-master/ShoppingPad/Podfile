@@ -1,0 +1,28 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+ use_frameworks!
+
+target 'ShoppingPad' do
+    
+    # install reactive kit for data binding
+    pod 'ReactiveKit', '~> 1.0'
+    pod 'ReactiveUIKit', '~> 1.0'
+    pod 'ReactiveFoundation', '~> 1.0'
+    
+    # install svg kit for reading svg image
+    pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '2.x'
+    
+    #install alamofire to deal with REST services
+    pod 'Alamofire', '~> 3.0'
+    
+end
+
+target 'ShoppingPadTests' do
+
+end
+
+target 'ShoppingPadUITests' do
+
+end
+
