@@ -1,0 +1,6 @@
+framework module Pods_ShoppingPad {
+  umbrella header "Pods-ShoppingPad-umbrella.h"
+
+  export *
+  module * { export * }
+}
